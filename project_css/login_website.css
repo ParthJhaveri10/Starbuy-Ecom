@@ -1,0 +1,132 @@
+/* COLOR PALLATE */
+:root {
+  --primary-color: #ff222b;
+  --white-color: #ebeded;
+  --third-color: #00a19a;
+  --forth-color: #059cc7;
+  --hover-color: #FFD700;
+  --black-color: #161616;
+  --menu-speed: 0.75s;
+}
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  color: var(--white-color);
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("../photos/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+  opacity: 1;
+}
+
+#container {
+
+  max-width: 400px;
+  background-color: var(--third-color);
+  padding: 20px;
+  display: block;
+  margin: 150px auto;
+}
+.form-wrap {
+  background-color: var(--third-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+}
+.form-wrap h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.form-wrap p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.btn:hover {
+  color: #37a08e;
+}
+#sign-up {
+  background: var(--primary-color);
+  width: 100%;
+  display: block;
+  padding: 10px;
+  border: none;
+}
+
+#sign-up:hover {
+  background: var(--primary-color);
+}
+.form-group {
+  margin-top: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-group label {
+  display: block;
+  color: #666;
+}
+.form-group input {
+  width: 100%;
+  padding: 5px;
+}
+.bottom-text {
+  font-size: 13px;
+}
+footer {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+footer a {
+  color: var(--white-color);
+}
+.register:hover{
+  color: var(--hover-color);
+}
+
+#images {
+  width: 1rem;
+  height: 2rem;
+  display: block;
+  padding: 1px;
+  border: none;
+  border-radius: 3rem;
+  margin-right: 3rem;
+}
+
+
+#links {
+  margin-right: 1rem;
+  display: inline-flex;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: var(--white-color);
+}
+#social a:hover{
+  color: var(--primary-color);
+}
+#text
+{
+  font-family: 'Roboto', sans-serif;
+  position:relative;
+  left:7rem;
+}
+
+#final_login
+{
+  text-decoration: none;
+  color: white;
+}
+
+#social {
+  position: relative;
+  left: 4rem;
+}

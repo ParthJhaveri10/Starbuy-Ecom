@@ -1,0 +1,65 @@
+/* COLOR PALLATE */
+:root {
+  --primary-color: #7bf5ed;
+  --white-color: #ebeded;
+  --third-color: #00a19a;
+  --forth-color: #059cc7;
+  --hover-color: #ffd700;
+  --black-color: #161616;
+  --body-color: #6dc9c5;
+  --complementary-color: #a10007;
+  --tertiary-color: #ff222b;
+  --footer-color: #00544f;
+  --profile-color: #3cb371;
+  --content-color: #22fff6;
+  --message-color: #2eb890;
+  --menu-speed: 0.75s;
+}
+
+.customer {
+  position: relative;
+  text-align: center;
+  top: 80px;
+  font-size: 2rem;
+  padding: 10px;
+}
+.box-container {
+  position: relative;
+  top: 90px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+  padding-bottom: 150px;
+}
+.box {
+  background-color: #5cdb95;
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+  border: 5px solid white;
+}
+.box p {
+  line-height: 1.4;
+  color: #fff;
+  padding: 2rem 0;
+  font-size: 1rem;
+}
+.profile {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 7rem;
+  width: 7rem;
+}
+.box h3 {
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+.stars i {
+  font-size: 1rem;
+  color: gold;
+}
+.footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}

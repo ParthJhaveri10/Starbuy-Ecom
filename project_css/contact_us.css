@@ -1,0 +1,132 @@
+:root {
+  --primary-color: #7bf5ed;
+  --white-color: #ebeded;
+  --third-color: #00a19a;
+  --forth-color: #059cc7;
+  --hover-color: #FFD700;
+  --black-color: #161616;
+  --body-color: #6DC9C5;
+  --complementary-color:#a10007;
+  --tertiary-color:#ff222b;
+  --footer-color: #00544F;
+  --profile-color: #3CB371;
+  --content-color:#22fff6;
+  --message-color:#2EB890;
+  --menu-speed: 0.75s;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('../photos/contact_us_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+    opacity: 1;
+    color: var(--white-color);
+  }
+  #container {
+    max-width: 400px;
+    background-color: var(--third-color);
+    padding: 20px;
+    display: block;
+    margin: 30px auto;
+  }
+  .form-wrap {
+    background-color: var(--third-color);
+    padding: 15px 25px;
+  }
+  .form-wrap h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  .form-wrap p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  .btn:hover {
+    color: #37a08e;
+  }
+  #sign-up {
+    background: var(--tertiary-color);
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border: none;
+    color: var(--white-color);
+  }
+  
+  #sign-up:hover {
+    background: var(--tertiary-color);
+  }
+  
+  .final_submit
+  {
+    text-decoration: none;
+    width:20rem;
+    color:var(--third-color);
+  }
+  .final_submit:hover
+  {
+    background: var(--tertiary-color);
+  }
+  .form-group {
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .form-group label {
+    display: block;
+    color: var(--white-color);
+  }
+  .form-group input {
+    width: 100%;
+    padding: 5px;
+  }
+  .bottom-text {
+    font-size: 13px;
+  }
+  footer {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  footer a {
+    color: #49c1a2;
+  }
+  
+  #images {
+    width: 1rem;
+    height: 2rem;
+    display: block;
+    padding: 1px;
+    border: none;
+    border-radius: 3rem;
+    margin-right: 3rem;
+  }
+  
+  
+  #links {
+    margin-right: 1rem;
+    display: inline-flex;
+    border-radius: 1rem;
+    text-decoration: none;
+    color:black;
+  }
+  
+  #text
+  {
+    font-family: 'Roboto', sans-serif;
+    position:relative;
+    left:7rem;
+  }
+  
+  #social {
+    position: relative;
+    left: 4rem;
+  }
+
+  .final_submit{
+    color: var(--white-color);
+  }
+  

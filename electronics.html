@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="project_css/electric.css">
+  <link rel="stylesheet" href="project_css/gallery-photos.css">
+  <link rel="stylesheet" href="project_css/basic.css">
+  <link rel="stylesheet" href="project_css/navbar.css">
+  <link rel="stylesheet" href="project_css/footer.css">
+  <link rel="stylesheet" href="project_css/utilities.css">
+  <link rel="stylesheet" href="project_css/clothing_lightbox.min.css">
+  <script src="javas/photos.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/b8163665c0.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="photos/logo.jpeg" type="image/x-icon">
+  <title>Electronics</title>
+</head>
+<body>
+  <header class="head">
+    <div class="navbars top" id="navbars">
+      <h1 class="logo top "><a href="main.html"><img src="./photos/logo3.png" style="width:100%; height:auto; max-width:200px;"></a></h1>
+      <nav class="circle">
+        <ul>
+          <li><a href="main.html">Home</a></li>
+          <li><a href="aboutus.html">About</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li>
+            Products
+            <ul class="types">
+              <li><a href="clothing2.html">Clothing</a></li>
+              <li><a href="electronics.html">Electronics</a></li>
+              <li><a href="grocery.html">Grocery</a></li>
+              <li><a href="Jewelery.html">Jewelery</a></li>
+            </ul>
+          </li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content">
+      <h1>Be Magical With Your Electronics</h1>
+      <p>Gives you quality services at the best prices.
+      </p>
+      <a href="#" class="btn">Shop Now</a>
+    </div>
+  </header>
+  <!-- Gallery -->
+  <section class="gallery min-vh-100">
+    <h4 style="color:#fff" class="section-header">Top Picks</h4>
+     <div class="container-lg">
+        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+           <div class="col">
+              <img src="./photos/electronics1.avif" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="./photos/electronics2.avif" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="./photos/electronics3.avif"class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="./photos/electronics4.avif" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="./photos/electronics5.avif" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="./photos/electronics6.avif" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="./photos/electronics7.avif" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="./photos/electronics8.avif" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="./photos/electronics9.avif" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="./photos/electronics10.avif" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="./photos/electronics11.avif" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="./photos/electronics12.avif" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="./photos/electronics13.avif" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="./photos/electronics14.avif" class="gallery-item" alt="gallery">
+           </div>
+           <div class="col">
+              <img src="./photos/electronics15.avif" class="gallery-item" alt="gallery">
+           </div>
+        </div>
+     </div>
+  </section>
+  <!-- Modal -->
+ <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+           <img src="./photos/alu_bhujiya.jpg" class="modal-img" alt="modal img">
+        </div>
+      </div>
+    </div>
+  </div>
+ <!-- FOOTER -->
+ <footer class="footer">
+  <div class="social">
+    <a href="#" class="fab fa-facebook fa-2x"></a>
+    <a href="#" class="fab fa-twitter fa-2x"></a>
+    <a href="#" class="fab fa-instagram fa-2x"></a>
+    <a href="#" class="fab fa-linkedin fa-2x"></a>
+  </div>
+  <div class="links">
+    <a href="main.html">Home</a>
+    <a href="aboutus.html">About us</a>
+    <a href="profile.html">Profile</a>
+    <a href="main.html">Products</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="contact_us.html">Contact Us</a>
+  </div>
+  <div class="credits">Copyrights &copy; 2022 - Starbuys</div>
+</footer>
+  <script>
+    const navbar = document.getElementById("navbars");
+    window.onscroll = function () {
+      if (window.pageYOffset > 100) {
+        navbar.classList.remove("top");
+      } else {
+        navbar.classList.add("top");
+      }
+    };
+  </script>
+</body>
+</html>

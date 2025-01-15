@@ -1,0 +1,83 @@
+/* COLOR PALLATE */
+:root {
+    --primary-color: #7bf5ed;
+    --white-color: #ebeded;
+    --third-color: #00a19a;
+    --forth-color: #059cc7;
+    --hover-color: #FFD700;
+    --black-color: #161616;
+    --body-color: #6DC9C5;
+    --complementary-color: #a10007;
+    --tertiary-color: #ff222b;
+    --footer-color: #00544F;
+    --profile-color: #3CB371;
+    --content-color: #22fff6;
+    --message-color: #2EB890;
+    --menu-speed: 0.75s;
+}
+
+.test{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+.all_reviews{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.review_1{
+    height: 350px;
+    display: flex;
+    width: 400px;
+    background-color: red;
+    position: relative;
+    top: 150px;
+    margin-right:20px;
+}
+
+.logo_circle{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: wheat;
+    position: relative;
+    left: 150px;
+    bottom: 50px;
+}
+
+.logo_circle img{
+    border-radius: 50px;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.info_text{
+    font-size: 10px;
+}
+
+
+@media screen and (max-width: 370px) {
+    .head{
+        display: none;
+    }
+}
+
+@media screen and (min-width:371px) and (max-width: 778px) {
+    .head{
+        display: flex;
+        flex-wrap: initial;
+    }
+}

@@ -1,0 +1,70 @@
+/* COLOR PALLATE */
+:root {
+  --primary-color: #7bf5ed;
+  --white-color: #ebeded;
+  --third-color: #00a19a;
+  --forth-color: #059cc7;
+  --hover-color: #ffd700;
+  --black-color: #161616;
+  --body-color: #ddd0c8;
+  --complementary-color: #a10007;
+  --tertiary-color: #ff222b;
+  --footer-color: #00544f;
+  --profile-color: #3cb371;
+  --content-color: #22fff6;
+  --message-color: #2eb890;
+  --menu-speed: 0.75s;
+}
+
+/* HEADER */
+.head {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("../photos/e-commerce.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+/* .head * {
+  z-index: 10;
+} */
+
+/* CONTACT */
+.contact {
+  width: 80%;
+  margin: 100px auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../photos/contact2.jpg");
+  position: relative;
+  background-position: center;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  filter: blur();
+  /* opacity: 0.8; */
+}
+.contact h1 {
+  color: var(--white-color);
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  padding: 0;
+}
+/* CONTENT */
+.content {
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+}
+.content h1 {
+  font-size: 60px;
+  font-weight: 600;
+}

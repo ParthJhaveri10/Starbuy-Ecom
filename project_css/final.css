@@ -1,0 +1,95 @@
+/* COLOR PALATTE */
+:root {
+  --primary-color: #7bf5ed;
+  --white-color: #ebeded;
+  --third-color: #ffe5b4;
+  --forth-color: #059cc7;
+  --hover-color: #ffd700;
+  --black-color: #161616;
+  --body-color: #191717;
+  --complementary-color: #a10007;
+  --tertiary-color: #ff222b;
+  --footer-color: #00544f;
+  --profile-color: #3cb371;
+  --content-color: #22fff6;
+  --message-color: #2eb890;
+  --navbar-color: #fd472f;
+  --menu-speed: 0.75s;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: var(--body-color);
+}
+a {
+  text-decoration: none;
+}
+.about-1 {
+  margin: 30px;
+  padding: 5px;
+}
+.about-1 h1 {
+  text-align: center;
+  color: var(--white-color);
+  font-weight: bold;
+}
+.about-1 p {
+  text-align: center;
+  padding: 3px;
+  color: var(--white-color);
+}
+
+.about-item {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: var(--white-color);
+  padding: 80px 30px;
+  box-shadow: 0 0 9px rgba(0, 0, 0.6);
+}
+
+.about-item i {
+  font-size: 43px;
+  margin: 0;
+}
+
+.about-item h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.about-item hr {
+  width: 46px;
+  height: 3px;
+  background-color: darkblue;
+  margin: 0 auto;
+  border: none;
+  text-align: center;
+}
+
+.about-item:hover {
+  background-color: var(--navbar-color);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+  color: #fff;
+}
+.about-item:hover hr {
+  background-color: var(--black-color);
+}
+
+.about-item:hover i {
+  transform: translateY(-20px);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover hr {
+  transition: all 400ms ease-in-out;
+}
+.logo {
+  position: absolute;
+  top: -60px;
+  left: -1px;
+}

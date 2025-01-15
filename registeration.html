@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="project_css/registeration_website.css">
+  <title>Registration</title>
+  <script src="https://kit.fontawesome.com/0e6a9590f5.js" crossorigin="anonymous"></script>
+  <script src="register_validate.js"></script>
+  <link rel="shortcut icon" href="photos/logo.jpeg" type="image/x-icon">
+</head>
+<body >
+  <div id="container">
+    
+    <div class="form-wrap">
+      <h1>Register Here</h1>
+    </div>
+    <form action="register.php" method = "post">
+      <div class="form-group">
+        <label for="first name">Full Name</label>
+        <input type="name" id="username" name="full_name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input id="email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="password1">Password</label>
+        <input type = "password" id="password_1" name="enter_password">
+      </div>
+      <div class="form-group">
+        <label for="password2">Confirm Password</label>
+        <input type="password" id="password_2" name = "confirm_password">
+      </div>
+      <br>
+      <div>
+        <button type="submit" id="sign-up" 
+        name = "submit" class="form-group" onclick = " return register_validate()"><a href="login_website.html" class = "final_submit">Sign Up</a></button>
+        <br>
+        <p id = "text">Or Register Using</p>
+        <div id="social" class = "form-group">
+          <a href = "https://www.google.com/" id = "links"><i class="fa-brands fa-google fa-3x" id = "images"></i></a>
+          <a href = "https://www.facebook.com/" id = "links"><i class="fa-brands fa-facebook fa-3x" id = "images"></i></a>
+          <a href = "https://github.com/" id = "links"><i class="fa-brands fa-github fa-3x" id = "images"></i></a>
+      </div>
+      </div>
+      
+      <br>
+      <footer>
+        <p>Already have an account? <a href="login_website.html" class="btn" target="_blank">Login Here</a></p>
+      </footer>
+    </form>
+  </div>
+  <div>
+  </div>
+</body>
+</html>

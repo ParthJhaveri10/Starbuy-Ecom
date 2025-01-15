@@ -1,0 +1,144 @@
+/* COLOR PALLATE */
+:root {
+  --primary-color: #7bf5ed;
+  --white-color: #ebeded;
+  --third-color: #00a19a;
+  --forth-color: #059cc7;
+  --hover-color: #FFD700;
+  --black-color: #161616;
+  --body-color: #6DC9C5;
+  --complementary-color:#a10007;
+  --tertiary-color:#ff222b;
+  --footer-color: #00544F;
+  --profile-color: #3CB371;
+  --content-color:#22fff6;
+  --message-color:#2EB890;
+  --menu-speed: 0.75s;
+}
+/* BASIC SETTINGS */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+  background-color: var(--body-color);
+  color: var(--white-color);
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+h1 ,h2 {
+  line-height: 1.2;
+  font-weight: 300;
+}
+p {
+  margin: 10px 0;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* LOGO */
+.logo img {
+  position: relative;
+  top: -30px;
+  float: left;
+  margin-top: 1px;
+  width: min(50vw, 200px);;
+}
+
+/* NAVBAR CSS */
+.navbar {
+  /* overflow: hidden; */
+  background: var(--third-color);
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  top: 0px;
+  padding: 30px;
+  font-weight: bold;
+  transition: 0.5s ease;
+  z-index: 10;
+}
+.top {
+  background: transparent;
+}
+.navbar li {
+  color: var(--white-color);
+  display: inline-block;
+  padding: 1rem;
+  position: relative;
+}
+.navbar li a {
+  color: var(--white-color);
+}
+.navbar li ul li {
+  display: none;
+}
+.navbar li:hover {
+  background: transparent;
+  color: var(--hover-color);
+  transition: 0.5s all ease;
+}
+.navbar li a:hover {
+  color: var(--hover-color);
+  transition: all 0.5s ease;
+}
+.navbar li:hover ul {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 200px;
+  margin-top: 1rem;
+}
+.navbar li:hover ul li {
+  display: block;
+  background: var(--message-color);
+}
+.navbar li:hover ul li a {
+  color: var(--white-color);
+}
+.navbar li:hover ul li:hover {
+  background-color: var(--tertiary-color);
+}
+/* HEADER */
+.head{
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('../photos/jewellery_7.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+/* CONTENT */
+.content {
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+}
+.content h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
